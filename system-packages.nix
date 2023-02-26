@@ -23,5 +23,14 @@
      tlp
      acpi
      poppler_utils
+     clang-tools
+     rust-analyzer
+     sumneko-lua-language-server
+     fzf
+     ripgrep
+     tree-sitter
+     clangStdenv
+     clangMultiStdenv
+     ventoy-bin
   ];
 }
