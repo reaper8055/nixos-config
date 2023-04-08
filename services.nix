@@ -6,4 +6,6 @@
   services.dbus.enable = true;
   services.flatpak.enable = true;
   services.gnome.gnome-browser-connector.enable = true;
+  services.udev.packages = with pkgs; [ gnome.gnome-settings-daemon ];
+  services.lorri.enable = true;
 }

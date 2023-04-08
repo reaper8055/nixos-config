@@ -10,7 +10,7 @@
 
   boot.initrd.availableKernelModules = [ "xhci_pci" "ahci" "nvme" "usb_storage" "usbhid" "sd_mod" ];
   boot.initrd.kernelModules = [ "amdgpu" ];
-  boot.kernelModules = [ "acpi_call" "kvm-amd" ];
+  boot.kernelModules = [ "acpi_call" "kvm-amd" "coretemp" "fuse" ];
   boot.extraModulePackages = [ ];
 
   fileSystems."/" =
